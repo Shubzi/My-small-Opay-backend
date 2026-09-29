@@ -1,5 +1,5 @@
 import express from 'express';
-import {getFakestores, createFakeStore, deleteFakeStore, updateFakeStore} from '../Controller/fakestorecontroller.js';
+import {getFakestores, createFakeStore, deleteFakeStore, updateFakeStore} from '../Controller/fakestoreController.js';
 
 const router = express.Router();
 router.get('/fakestores', getFakestores);
